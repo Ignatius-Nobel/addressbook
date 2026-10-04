@@ -3,10 +3,10 @@ pipeline {
 
     stages {
 
-        stage('CI on AgentA') {
+        stage('CI on agentA') {
 
             agent {
-                label 'AgentA'
+                label 'agentA'
             }
 
             stages {
@@ -74,10 +74,10 @@ pipeline {
             }
         }
 
-        stage('CD on AgentB') {
+        stage('CD on agentB') {
 
             agent {
-                label 'AgentB'
+                label 'agentB'
             }
 
             steps {
