@@ -7,7 +7,7 @@
 "vikram@example.com"));
  book.add(new Contact("Meera Iyer", "+91-90000-00003", "meera@example.com"));
     book.add(new Contact("Rahul Chaubey", "+91-90078685", "rahul@example.com"));
-    book.add(new Contact("Rahul Chaubey", "+91-90000685", "rahul@example.com"));
+    book.add(new Contact("Ignatius Nobel", "+91-90000985", "nobel@example.com"));
  String host = "unknown";
  try {
  host = java.net.InetAddress.getLocalHost().getHostName();
