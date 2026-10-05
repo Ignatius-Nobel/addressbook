@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'discoverdevops/addressbook'
+        DOCKER_IMAGE = 'ignatiusnobel13/addressbook'
         CONTAINER_NAME = 'addressbook'
         HOST_PORT = '8080'
         CONTAINER_PORT = '8080'
